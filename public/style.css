@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    background-color: rgb(223, 174, 16);
+    transition: all linear 0.3s ;
+}
+
+#toast{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.ff{
+    /* height: 100vh; */
+    /* background-color: red; */
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     padding: 20px;
+     
+     text-align: center;
+}
+.witdh{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    /* margin: 50px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.color-code{
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    /* padding: ;
+     */
+     justify-content: center;
+     text-align: center;
+     margin: 32px 0;
+}
+.color-code span{
+    text-align: left;
+    width: 100px;
+    text-align: center;
+    padding: 4px 8px;
+    background-color: aliceblue;
+}
+.hello{
+    background-color: rgb(0, 0, 0);
+    padding:10px
+     ;
+     border:  none;
+     font-size: 2rem;
+ border-radius:30px ;
+ color: white;
+ cursor: pointer;
+}
+.hello:hover{
+    color: black;
+    background-color: rgb(223, 174, 16);
+}
+button#CopyCode{
+    height: 26px;
+    width: 26px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
